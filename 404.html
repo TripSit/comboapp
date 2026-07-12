@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=https://tripsit.me/combo">
+<link rel="canonical" href="https://tripsit.me/combo">
+<title>Moved to tripsit.me/combo</title>
+<script>
+// Old site registered a service worker; unregister it and clear caches so
+// returning visitors are not served the stale cached app instead of redirecting.
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function (rs) { rs.forEach(function (r) { r.unregister(); }); });
+}
+if (window.caches) { caches.keys().then(function (ks) { ks.forEach(function (k) { caches.delete(k); }); }); }
+location.replace('https://tripsit.me/combo');
+</script>
+</head>
+<body>
+<p>This site has moved to <a href="https://tripsit.me/combo">tripsit.me/combo</a>.</p>
+</body>
+</html>
