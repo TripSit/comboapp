@@ -1,3 +1,7 @@
+> **Moved.** The combo checker is now part of the TripSit website: <https://tripsit.me/combo>
+> (source: [TripSit/website `src/components/comboChecker`](https://github.com/TripSit/website/tree/main/src/components/comboChecker)).
+> combo.tripsit.me redirects there. GitHub Pages is turned off, and this repository is archived and no longer deployed.
+
 # Drug Combinations
 
 Combining data from [tripsit](http://wiki.tripsit.me/wiki/Drug_combinations).
